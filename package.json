@@ -1,0 +1,28 @@
+{
+  "name": "om-kumar-100om",
+  "version": "1.0.7",
+  "description": "Publishing Om Kumar resume as a public npm package using Om Kumar LinkedIn ID (om-kumar-100om) as the package name. When someone runs this package via npx, it will display Om Kumar resume directly in the user's terminal.",
+  "keywords": [
+    "Om Kumar",
+    "Resume"
+  ],
+  "bin": {
+    "omdemoooo": "index.js"
+  },
+  "homepage": "https://github.com/Omkumar2003/cactro_test",
+  "author": "Om Kumar <omkumar742003@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omkumar2003/cactro_test"
+  },
+  "files": [
+    "index.js",
+    "Om_kumar_Resume.pdf"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "pdfjs-dist": "^5.4.149"
+  }
+}
